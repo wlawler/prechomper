@@ -10,6 +10,7 @@ import { RecipeListComponent } from './recipe-vault/recipe-list/recipe-list.comp
 import { RecipeItemComponent } from './recipe-vault/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import { RecipeDetailComponent } from './recipe-vault/recipe-detail/recipe-detail.component';
 
 
 
@@ -22,6 +23,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
+    RecipeDetailComponent,
      ],
   imports: [
     BrowserModule, NgbModule.forRoot(),
